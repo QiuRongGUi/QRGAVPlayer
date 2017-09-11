@@ -8,8 +8,6 @@
 
 #import "AppDelegate.h"
 
-#import "AVPlayerViewController.h"
-
 
 @interface AppDelegate ()
 
@@ -20,15 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    
-    AVPlayerViewController *player = [[AVPlayerViewController alloc] initWithNibName:@"AVPlayerViewController" bundle:nil];
-    
-    UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:player];
-    
-    self.window.rootViewController = na;
-    
-    [self.window makeKeyAndVisible];
+//    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    
+//    AVPlayerViewController *player = [[AVPlayerViewController alloc] initWithNibName:@"AVPlayerViewController" bundle:nil];
+//    
+//    UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:player];
+//    
+//    self.window.rootViewController = na;
+//    
+//    [self.window makeKeyAndVisible];
     
     return YES;
 }

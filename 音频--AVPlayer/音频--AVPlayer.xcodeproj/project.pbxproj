@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		1328977F1F658C2D004912B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1328977E1F658C2D004912B8 /* main.m */; };
 		132897821F658C2D004912B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 132897811F658C2D004912B8 /* AppDelegate.m */; };
-		132897851F658C2D004912B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132897841F658C2D004912B8 /* ViewController.m */; };
 		132897881F658C2D004912B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132897861F658C2D004912B8 /* Main.storyboard */; };
 		1328978A1F658C2D004912B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132897891F658C2D004912B8 /* Assets.xcassets */; };
 		1328978D1F658C2D004912B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1328978B1F658C2D004912B8 /* LaunchScreen.storyboard */; };
 		132897981F658C2D004912B8 /* ____AVPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 132897971F658C2D004912B8 /* ____AVPlayerTests.m */; };
 		132897A31F658C2D004912B8 /* ____AVPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 132897A21F658C2D004912B8 /* ____AVPlayerUITests.m */; };
-		132897B31F65A08B004912B8 /* AVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132897B11F65A08B004912B8 /* AVPlayerViewController.m */; };
-		132897B41F65A08B004912B8 /* AVPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 132897B21F65A08B004912B8 /* AVPlayerViewController.xib */; };
+		13359DFF1F66D20000D81E5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13359DFE1F66D20000D81E5B /* ViewController.m */; };
+		13359E031F66D38500D81E5B /* AVPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13359E021F66D38500D81E5B /* AVPlayerManager.m */; };
+		13359E101F66E78300D81E5B /* Voice.m in Sources */ = {isa = PBXBuildFile; fileRef = 13359E0F1F66E78300D81E5B /* Voice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,6 @@
 		1328977E1F658C2D004912B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		132897801F658C2D004912B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		132897811F658C2D004912B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		132897831F658C2D004912B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		132897841F658C2D004912B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		132897871F658C2D004912B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		132897891F658C2D004912B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1328978C1F658C2D004912B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,9 +51,12 @@
 		1328979E1F658C2D004912B8 /* 音频--AVPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音频--AVPlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		132897A21F658C2D004912B8 /* ____AVPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____AVPlayerUITests.m"; sourceTree = "<group>"; };
 		132897A41F658C2D004912B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		132897B01F65A08B004912B8 /* AVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerViewController.h; sourceTree = "<group>"; };
-		132897B11F65A08B004912B8 /* AVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerViewController.m; sourceTree = "<group>"; };
-		132897B21F65A08B004912B8 /* AVPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AVPlayerViewController.xib; sourceTree = "<group>"; };
+		13359DFD1F66D20000D81E5B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13359DFE1F66D20000D81E5B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13359E011F66D38500D81E5B /* AVPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerManager.h; sourceTree = "<group>"; };
+		13359E021F66D38500D81E5B /* AVPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerManager.m; sourceTree = "<group>"; };
+		13359E0E1F66E78300D81E5B /* Voice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voice.h; sourceTree = "<group>"; };
+		13359E0F1F66E78300D81E5B /* Voice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Voice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,13 +107,11 @@
 		1328977C1F658C2D004912B8 /* 音频--AVPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				13359E001F66D38500D81E5B /* AVPlayer 音频 */,
 				132897801F658C2D004912B8 /* AppDelegate.h */,
 				132897811F658C2D004912B8 /* AppDelegate.m */,
-				132897831F658C2D004912B8 /* ViewController.h */,
-				132897841F658C2D004912B8 /* ViewController.m */,
-				132897B01F65A08B004912B8 /* AVPlayerViewController.h */,
-				132897B11F65A08B004912B8 /* AVPlayerViewController.m */,
-				132897B21F65A08B004912B8 /* AVPlayerViewController.xib */,
+				13359DFD1F66D20000D81E5B /* ViewController.h */,
+				13359DFE1F66D20000D81E5B /* ViewController.m */,
 				132897861F658C2D004912B8 /* Main.storyboard */,
 				132897891F658C2D004912B8 /* Assets.xcassets */,
 				1328978B1F658C2D004912B8 /* LaunchScreen.storyboard */,
@@ -146,6 +145,17 @@
 				132897A41F658C2D004912B8 /* Info.plist */,
 			);
 			path = "音频--AVPlayerUITests";
+			sourceTree = "<group>";
+		};
+		13359E001F66D38500D81E5B /* AVPlayer 音频 */ = {
+			isa = PBXGroup;
+			children = (
+				13359E011F66D38500D81E5B /* AVPlayerManager.h */,
+				13359E021F66D38500D81E5B /* AVPlayerManager.m */,
+				13359E0E1F66E78300D81E5B /* Voice.h */,
+				13359E0F1F66E78300D81E5B /* Voice.m */,
+			);
+			path = "AVPlayer 音频";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +269,6 @@
 			files = (
 				1328978D1F658C2D004912B8 /* LaunchScreen.storyboard in Resources */,
 				1328978A1F658C2D004912B8 /* Assets.xcassets in Resources */,
-				132897B41F65A08B004912B8 /* AVPlayerViewController.xib in Resources */,
 				132897881F658C2D004912B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,10 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				132897851F658C2D004912B8 /* ViewController.m in Sources */,
+				13359E101F66E78300D81E5B /* Voice.m in Sources */,
+				13359DFF1F66D20000D81E5B /* ViewController.m in Sources */,
 				132897821F658C2D004912B8 /* AppDelegate.m in Sources */,
-				132897B31F65A08B004912B8 /* AVPlayerViewController.m in Sources */,
 				1328977F1F658C2D004912B8 /* main.m in Sources */,
+				13359E031F66D38500D81E5B /* AVPlayerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +536,7 @@
 				132897A91F658C2D004912B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		132897AA1F658C2D004912B8 /* Build configuration list for PBXNativeTarget "音频--AVPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +545,7 @@
 				132897AC1F658C2D004912B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		132897AD1F658C2D004912B8 /* Build configuration list for PBXNativeTarget "音频--AVPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +554,7 @@
 				132897AF1F658C2D004912B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
